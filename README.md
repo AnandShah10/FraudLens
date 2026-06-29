@@ -1,8 +1,8 @@
-# Scam Risk Meter 🛡️
+# FraudLens 🔍
 
-**Advanced Chrome Extension for Real-Time Scam Detection**
+**Production-Ready Chrome Extension for Real-Time Fraud Detection**
 
-A powerful, privacy-first browser extension that analyzes websites in real-time, providing instant risk scoring, evidence breakdowns, and protection against phishing, scams, and malicious patterns.
+A powerful, privacy-first browser extension that analyzes websites in real-time using advanced heuristics, providing instant risk scoring, detailed evidence, dynamic blocking, and protection against fraud, phishing, and malicious patterns.
 
 ![Version](https://img.shields.io/badge/version-1.5.2-success)
 ![Chrome](https://img.shields.io/badge/Chrome-MV3-blue)
@@ -58,8 +58,8 @@ A powerful, privacy-first browser extension that analyzes websites in real-time,
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/scam-website-risk-meter.git
-   cd scam-website-risk-meter
+   git clone https://github.com/your-username/fraudlens.git
+   cd fraudlens
    ```
 
    *Replace `your-username` with your GitHub username.*
@@ -91,7 +91,7 @@ A powerful, privacy-first browser extension that analyzes websites in real-time,
 4. **Open Settings** to customize detection behavior:
    - Toggle fingerprinting detection
    - Enable/disable form protection warnings
-   - Control automatic blocking of known scam patterns
+   - Control automatic blocking of known fraud patterns
    - Adjust the risk threshold
 
 ## 🛠️ How It Works
@@ -144,7 +144,7 @@ See the full [CHANGELOG.md](CHANGELOG.md) for version history.
 - Clean Vite multi-page build output (flat `popup.html`/`options.html`)
 - Updated to Tailwind CSS v4 with native Vite plugin
 - Improved heuristic determinism and settings integration
-- Enhanced blocking rules for popular scam patterns
+- Enhanced blocking rules for popular fraud patterns
 
 ## 🤝 Contributing
 
@@ -167,9 +167,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-**Built with ❤️ for a safer web.**
+**Built with ❤️ for a fraud-free web.**
 
-*Privacy-first. Local-only. Zero telemetry.*
+*Privacy-first. Local-only. Zero telemetry. Production-ready.*
 
 ## Support
 

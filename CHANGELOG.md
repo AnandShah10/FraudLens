@@ -1,4 +1,4 @@
-# Scam Website Risk Meter Changelog
+# FraudLens Changelog
 
 ## v1.5.2 (Current)
 - Cleaned Vite multi-page build output: added Rollup `generateBundle` plugin to rename `src/popup/index.html` → `popup.html` and `src/options/index.html` → `options.html` at dist root

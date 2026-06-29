@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Scam Website Risk Meter",
+  "name": "FraudLens",
   "version": "1.5.2",
-  "description": "Real-time scam detection, risk scoring, dynamic blocking, and local analysis. v1.5.2 cleans HTML output structure for cleaner packaging.",
+  "description": "Real-time fraud detection, risk scoring, dynamic blocking, and local analysis. Production-ready with clean build outputs.",
   "permissions": ["tabs", "storage", "activeTab", "scripting", "webNavigation", "declarativeNetRequest"],
   "host_permissions": ["<all_urls>"],
   "web_accessible_resources": [
