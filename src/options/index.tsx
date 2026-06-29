@@ -68,7 +68,7 @@ const Options: React.FC = () => {
   return (
     <div className="max-w-4xl mx-auto p-8 bg-zinc-950 text-white min-h-screen">
         <div className="flex justify-between items-center mb-8">
-        <h1 className="text-4xl font-bold">Scam Risk Meter Settings</h1>
+        <h1 className="text-4xl font-bold">FraudLens Settings</h1>
         <div className="px-3 py-1 bg-zinc-900 rounded-full text-sm text-emerald-400 font-mono">v1.5.2</div>
       </div>
       
@@ -112,8 +112,8 @@ const Options: React.FC = () => {
                 className="w-5 h-5 accent-red-500" 
               />
               <div className="flex-1">
-                <span className="text-lg">Block Known Scam Patterns</span>
-                <p className="text-zinc-400 text-sm mt-0.5">Automatically blocks URLs matching phishing and scam patterns</p>
+                <span className="text-lg">Block Known Fraud Patterns</span>
+                <p className="text-zinc-400 text-sm mt-0.5">Automatically blocks URLs matching phishing and fraud patterns</p>
               </div>
             </label>
           </div>

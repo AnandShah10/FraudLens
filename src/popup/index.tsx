@@ -65,7 +65,7 @@ const Popup: React.FC = () => {
     <div className="p-6">
       <div className="text-center mb-6">
         <div className="flex items-center justify-center gap-3">
-          <h1 className="text-2xl font-bold text-white">Scam Risk Meter</h1>
+          <h1 className="text-2xl font-bold text-white">FraudLens</h1>
           <div className="px-2 py-0.5 text-[10px] bg-zinc-800 rounded font-mono text-emerald-400">v1.5.2</div>
         </div>
         <p className="text-zinc-400 text-sm mt-1 truncate">

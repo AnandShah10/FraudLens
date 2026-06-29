@@ -51,7 +51,7 @@ async function updateBlockingRules(enabled: boolean = true): Promise<void> {
         removeRuleIds: allRuleIds,
         addRules: BLOCK_RULES.map(r => makeRule(r.id, r.pattern))
       });
-      console.log(`🔒 Blocking rules enabled (${BLOCK_RULES.length} rules for known scam patterns)`);
+      console.log(`🔒 Blocking rules enabled (${BLOCK_RULES.length} rules for known fraud patterns)`);
     } else {
       await chrome.declarativeNetRequest.updateDynamicRules({
         removeRuleIds: allRuleIds
@@ -64,7 +64,7 @@ async function updateBlockingRules(enabled: boolean = true): Promise<void> {
 }
 
 chrome.runtime.onInstalled.addListener(async () => {
-  console.log('✅ Scam Website Risk Meter installed');
+  console.log('✅ FraudLens installed');
 
   try {
     const result = await chrome.storage.local.get(['settings']);

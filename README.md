@@ -1,8 +1,8 @@
 # FraudLens 🔍
 
-**Production-Ready Chrome Extension for Real-Time Fraud Detection**
+**Advanced Chrome Extension for Real-Time Fraud Detection**
 
-A powerful, privacy-first browser extension that analyzes websites in real-time using advanced heuristics, providing instant risk scoring, detailed evidence, dynamic blocking, and protection against fraud, phishing, and malicious patterns.
+A powerful, privacy-first browser extension that analyzes websites in real-time, providing instant risk scoring, evidence breakdowns, dynamic blocking, and protection against fraud, phishing, and malicious patterns.
 
 ![Version](https://img.shields.io/badge/version-1.5.2-success)
 ![Chrome](https://img.shields.io/badge/Chrome-MV3-blue)
@@ -81,7 +81,7 @@ A powerful, privacy-first browser extension that analyzes websites in real-time 
    - Select the `dist` folder
 
 ### Chrome Web Store
-*(Coming soon - currently distributed as unpacked or .crx)*
+Ready for publication. Currently distributed via unpacked extension or CRX for sideloading.
 
 ## 📖 Usage
 
