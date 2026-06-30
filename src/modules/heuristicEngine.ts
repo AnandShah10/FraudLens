@@ -38,7 +38,7 @@ export class HeuristicEngine {
 
   private analyzeDomain(domain: string) {
     const entropy = this.calculateEntropy(domain);
-    // Deterministic 'recent' heuristic: short name, contains numbers/hyphens (common in scam domains)
+    // Deterministic 'recent' heuristic: short name, contains numbers/hyphens (common in fraud domains)
     const isRecent = domain.length < 15 || /\d|-/.test(domain) || domain.split('.')[0].length < 6;
     return {
       entropy,

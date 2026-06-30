@@ -16,7 +16,7 @@
 ## v1.5.0
 - Added Data Management section in Options with "Clear Analysis Cache" button
 - Enhanced SVG risk gauge in popup using Tailwind's `.risk-gauge` component for better drop-shadow effect
-- Expanded declarativeNetRequest blocking regex for more scam patterns (seed phrases, private keys, popular DEX scams, hardware wallets)
+- Expanded declarativeNetRequest blocking regex for more fraud patterns (seed phrases, private keys, popular DEX scams, hardware wallets)
 - Cleaned up unused dependencies (React Query, Chart.js, Zod)
 - Updated UI badges, descriptions, and manifest across the extension
 - Improved cache clearing with background notification

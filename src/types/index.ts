@@ -1,6 +1,6 @@
 export interface RiskScore {
   score: number;
-  level: 'Safe' | 'Low Risk' | 'Suspicious' | 'Dangerous' | 'High Scam Risk';
+  level: 'Safe' | 'Low Risk' | 'Suspicious' | 'Dangerous' | 'Critical';
   confidence: number;
   evidence: EvidenceItem[];
   recommendations: string[];

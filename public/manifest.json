@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "FraudLens",
   "version": "1.5.2",
-  "description": "Real-time fraud detection, risk scoring, dynamic blocking, and local analysis. Production-ready with clean build outputs.",
+  "description": "Real-time fraud detection, risk scoring, dynamic blocking, and local analysis.",
   "permissions": ["tabs", "storage", "activeTab", "scripting", "webNavigation", "declarativeNetRequest"],
   "host_permissions": ["<all_urls>"],
   "web_accessible_resources": [

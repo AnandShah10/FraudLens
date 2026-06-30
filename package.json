@@ -1,7 +1,7 @@
 {
   "name": "fraudlens",
   "version": "1.5.2",
-  "description": "Production-ready Chrome Extension for real-time fraud detection and risk scoring",
+  "description": "Advanced Chrome Extension for detecting fraud and scam websites in real-time",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

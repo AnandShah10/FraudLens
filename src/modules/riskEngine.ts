@@ -30,7 +30,7 @@ export class RiskEngine {
           signal: 'High entropy domain name',
           weight: SCORING_WEIGHTS.domain,
           impact: 35,
-          description: 'Unusually random-looking domain (common in scams)'
+          description: 'Unusually random-looking domain (common in fraud)'
         });
       }
       if (unicodeSpoof) {
@@ -154,7 +154,7 @@ export class RiskEngine {
     // User threshold controls transition from Suspicious to Dangerous (default 60 = SUSPICIOUS)
     if (score < threshold) return 'Suspicious';
     if (score < RISK_THRESHOLDS.DANGEROUS) return 'Dangerous';
-    return 'High Scam Risk';
+    return 'Critical';
   }
 
   private generateRecommendations(score: number, evidence: EvidenceItem[], threshold: number = 60): string[] {
